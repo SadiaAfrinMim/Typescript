@@ -37,29 +37,31 @@
 
 // }
 
-type nameType ={
-    fristName:string,
-    lastName:string,
-
-}
-type ageType ={
-    age:number
-}
-
-type DeatailType = nameType & ageType
 
 
-function sayDtails(obj:DeatailType):string{
-    let { fristName,lastName,age} = obj
-    return `full name: ${ fristName} ${lastName},age: ${age}`
-}
+// type nameType ={
+//     fristName:string,
+//     lastName:string,
 
-let instructorDetails:DeatailType ={
-    fristName:"sadia afrin Mim",
-            lastName:"mimi",
-            age: 10
-        }
+// }
+// type ageType ={
+//     age:number
+// }
+
+// type DeatailType = nameType & ageType
 
 
-console.log(instructorDetails)
+// function sayDtails(obj:DeatailType):string{
+//     let { fristName,lastName,age} = obj
+//     return `full name: ${ fristName} ${lastName},age: ${age}`
+// }
+
+// let instructorDetails:DeatailType ={
+//     fristName:"sadia afrin Mim",
+//             lastName:"mimi",
+//             age: 10
+//         }
+
+
+// console.log(instructorDetails)
     
