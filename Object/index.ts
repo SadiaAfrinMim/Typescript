@@ -50,15 +50,16 @@ type DeatailType = nameType & ageType
 
 
 function sayDtails(obj:DeatailType):string{
-    let {fristName,lastName,age} = obj
-    return `full name: ${fristName} ${lastName},age: ${age}`
+    let { fristName,lastName,age} = obj
+    return `full name: ${ fristName} ${lastName},age: ${age}`
 }
 
 let instructorDetails:DeatailType ={
-            fristName:"sadia afrin Mim",
+    fristName:"sadia afrin Mim",
             lastName:"mimi",
             age: 10
         }
 
-        console.log(instructorDetails)
+
+console.log(instructorDetails)
     
