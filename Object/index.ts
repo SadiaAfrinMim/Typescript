@@ -37,11 +37,16 @@
 
 // }
 
-type DeatailType ={
+type nameType ={
     fristName:string,
-            lastName:string,
-            age:number
+    lastName:string,
+
 }
+type ageType ={
+    age:number
+}
+
+type DeatailType = nameType & ageType
 
 
 function sayDtails(obj:DeatailType):string{
